@@ -32,10 +32,10 @@ set backspace=indent,eol,start
 syntax on
 set mouse=a
 set number
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
-set tabstop=2
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+set incsearch
+
+
 highlight ColorColumn ctermbg=green
 call matchadd('ColorColumn', '\%81v', 100)
 colorscheme slate
