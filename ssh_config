@@ -1,7 +1,0 @@
-#SSH Multiplexing
-Host caen
-	HostName login.engin.umich.edu
-	User jackhong
-	ControlMaster auto
-	ControlPath ~/.ssh/master-%r@%h:%p
-	ControlPersist 43200
