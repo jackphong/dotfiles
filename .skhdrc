@@ -13,7 +13,7 @@ cmd + shift - 9 : yabai -m window --space 9
 cmd + shift - 0 : yabai -m window --space 0
 
 # launch iterm , cmd + enter
-cmd - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --session session
 
 # float / unfloat window and center on screen
 cmd + shift - space : yabai -m window --toggle float;\
